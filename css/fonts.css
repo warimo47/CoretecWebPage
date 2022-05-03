@@ -1,0 +1,58 @@
+/* charset */
+@charset "utf-8";
+
+/* fonts : NanumGothic */
+@font-face {
+	font-family:'NanumGothic'; 
+	src:url('../../css/fonts/NanumGothic.eot')
+} 
+@font-face {
+	font-family:'NanumGothic'; 
+	src:url('../../css/fonts/NanumGothic.woff')
+} 
+
+/* fonts : NotoSans  */
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../../css/fonts/notokr-light.eot);
+    src: url(../../css/fonts/notokr-light.eot?#iefix) format('embedded-opentype'),
+    url(../../css/fonts/notokr-light.woff2) format('woff2'),
+    url(../../css/fonts/notokr-light.woff) format('woff'),
+    url(../../css/fonts/notokr-light.ttf) format('truetype'),
+    url(../../css/fonts/notokr-light.svg#notokr-light) format('svg');
+}
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../../css/fonts/notokr-regular.eot);
+    src: url(../../css/fonts/notokr-regular.eot?#iefix) format('embedded-opentype'),
+    url(../../css/fonts/notokr-regular.woff2) format('woff2'),
+    url(../../css/fonts/notokr-regular.woff) format('woff'),
+    url(../../css/fonts/notokr-regular.ttf) format('truetype'),
+    url(../../css/fonts/notokr-regular.svg#notokr-regular) format('svg');
+}
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../../css/fonts/notokr-medium.eot);
+    src: url(../../css/fonts/notokr-medium.eot?#iefix) format('embedded-opentype'),
+    url(../../css/fonts/notokr-medium.woff2) format('woff2'),
+    url(../../css/fonts/notokr-medium.woff) format('woff'),
+    url(../../css/fonts/notokr-medium.ttf) format('truetype'),
+    url(../../css/fonts/notokr-medium.svg#notokr-medium) format('svg');
+}
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 900;
+    src: url(../../css/fonts/notokr-bold.eot);
+    src: url(../../css/fonts/notokr-bold.eot?#iefix) format('embedded-opentype'),
+    url(../../css/fonts/notokr-bold.woff2) format('woff2'),
+    url(../../css/fonts/notokr-bold.woff) format('woff'),
+    url(../../css/fonts/notokr-bold.ttf) format('truetype'),
+    url(../../css/fonts/notokr-bold.svg#notokr-bold) format('svg');
+}
