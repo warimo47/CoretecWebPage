@@ -1,6 +1,6 @@
 <?
-$gcode = "03";
-$pcode = "02";
+$gcode = "04";
+$pcode = "04";
 include_once('./_common.php');
 include_once('./ll_'.$gcode.'.php');
 ?>
@@ -11,7 +11,7 @@ include_once('./ll_'.$gcode.'.php');
 			<p class="s_title"><?=$pagename;?></p>
 			<div class="bottom_border"><img src="./img/bottom_border.jpg"></div>
 			<div class="vision">
-				<img src="./img/sub_03_02.jpg"  style="border:0px solid #eee;">
+				<img src="./img/sub_04_04.jpg"  style="border:0px solid #eee;">
 			</div>
 		</div>
 	</div>

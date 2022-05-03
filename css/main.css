@@ -26,40 +26,39 @@
 .main_m_icon{ width:20px; height:16px; background:url("../img/main_menu_btn.png"); position:absolute; top:64px; right:100px; cursor:pointer; }
 .main_m_sub_icon{ width:20px; height:16px; background:url("../img/main_menu_sub_btn.png"); position:absolute; top:33px; right:100px; cursor:pointer; }
 
-.left_menu {
+.left_menu
+{
     position: fixed;
     left: 30px;
     top: 50%;
 	margin-top:-123px;
-    width:5px;
 	line-height:72px;
 	z-index:11111111111111;
-	background:url("./img/dotted.png");
+	background:url("../img/dotted.png");
 	background-repeat:no-repeat;
 	background-position-x: 4px;
 	background-position-y: 53px;
 }
-.left_menu a{ width:8px; height:8px; border-radius:50%; background:#818181; display:inline-block; }
-.a_on {
+.left_menu a
+{
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	background:#818181;
+	display:inline-block;
+}
+
+.a_on
+{
     width:20px !important;
 	height:20px !important;
-    background:url("./img/slide_on.png") !important;
+    background:url("../img/slide_on.png") !important;
 	background-repeat:no-repeat !important;
 	margin-left:-5px;
 	padding-left:5px;
 	color:#c9c9c9;
 }
-.left_menu_text{
-	position: fixed;
-    left: 30px;
-    top: 50%;
-	margin-top:-127px;
-    width:1px;
-	line-height:72px;
-	z-index:11111111111111;
-	width:60px;
-}
-.left_menu_text a{ background:none !important; }
+
 .right_close img{ margin-top:64px; margin-right:90px; cursor:pointer; }
 
 /* 풋터 */

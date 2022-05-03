@@ -75,16 +75,12 @@ echo $list->run();
 */
 ?>
 <div class="left_menu">
-	<a href="#sec1" class="anchorLink a1"></a>
-	<a href="#sec2" class="anchorLink a2"></a>
-	<a href="#sec3" class="anchorLink a3"></a>
-	<a href="#sec4" class="anchorLink a4"></a>
-</div>
-<div class="left_menu_text" style="margin-left:30px;">
-	<a href="#sec1" class="anchorLink a1">intro</a>
-	<a href="#sec2" class="anchorLink a2">about us</a>
-	<a href="#sec3" class="anchorLink a3">product</a>
-	<a href="#sec4" class="anchorLink a4">contact</a>
+	<ul>
+		<li><a href="#sec1">intro</a></li>
+		<li><a href="#sec2">about us</a></li>
+		<li><a href="#sec3">product</a></li>
+		<li><a href="#sec4">contact</a></li>
+	</ul>
 </div>
 <div class="con_wrap">
 	<div class="main_con00" id="sec1">
@@ -143,19 +139,6 @@ echo $list->run();
 					</span>
 				</div>
 			</li>
-			<!--
-			<li>
-				<div class="main_icon main_icon_01"></div>
-				<div class="main_icon_text">
-					<span>보안</span>&nbsp;<span></span><br><br>
-					<span>
-						safeport<br>
-						CCP<br>
-						통합감시
-					</span>
-				</div>
-			</li>
-			-->
 			<li>
 				<div class="main_icon main_icon_01"></div>
 				<div class="main_icon_text">
@@ -204,7 +187,7 @@ echo $list->run();
 			<div class="main_con03_02">
 				<ul>
 					<li>
-						<a href="sub_02_01.php"><div style="width:100%; height:250px; background:url('./img/main_con02.jpg');"></div></a>
+						<div style="width:100%; height:250px; background:url('./img/main_con02.jpg');"></div>
 						<p>
 							<b>방재.안전</b><br>
 							드론, 공간분석, 지하시설물에 관한 특허를 기반으로 
@@ -213,7 +196,7 @@ echo $list->run();
 						</p>
 					</li>
 					<li>
-						<a href="sub_03_01.php"><div style="width:100%; height:250px; background:url('./img/main_con01.jpg');"></div></a>
+						<div style="width:100%; height:250px; background:url('./img/main_con01.jpg');"></div>
 						<p>
 							<b>디지털 트윈</b><br>
 							증강현실, 가상현실, 실내측위에 관한 특허를 기반으로
@@ -278,6 +261,8 @@ echo $list->run();
 			</script>
 		</div>
 	</div>
+</div>
+
 <?
 include_once("./tail.php");
 ?>
