@@ -21,10 +21,10 @@
 .right_menu li{ padding-left:40px; font-size:15px; color:#fff; font-weight:200; }
 .right_menu li a{ color:#fff; }
 .right_close{ text-align:right; padding-right:10px; height:100px; }
-.ci{ width:135px; height:32px; background:url("./img/ci.png"); position:absolute; top:56px; left:100px; }
-.ci_sub{ width:135px; height:32px; background:url("./img/ci_sub.png"); position:absolute; top:24px; left:100px; }
-.main_m_icon{ width:20px; height:16px; background:url("./img/main_menu_btn.png"); position:absolute; top:64px; right:100px; cursor:pointer; }
-.main_m_sub_icon{ width:20px; height:16px; background:url("./img/main_menu_sub_btn.png"); position:absolute; top:33px; right:100px; cursor:pointer; }
+.ci{ width:135px; height:32px; background:url("../img/ci.png"); position:absolute; top:56px; left:100px; }
+.ci_sub{ width:135px; height:32px; background:url("../img/ci_sub.png"); position:absolute; top:24px; left:100px; }
+.main_m_icon{ width:20px; height:16px; background:url("../img/main_menu_btn.png"); position:absolute; top:64px; right:100px; cursor:pointer; }
+.main_m_sub_icon{ width:20px; height:16px; background:url("../img/main_menu_sub_btn.png"); position:absolute; top:33px; right:100px; cursor:pointer; }
 
 .left_menu {
     position: fixed;
