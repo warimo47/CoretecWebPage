@@ -23,29 +23,24 @@
 .right_close{ text-align:right; padding-right:10px; height:100px; }
 .ci{ width:135px; height:32px; background:url("../img/ci.png"); position:absolute; top:56px; left:100px; }
 .ci_sub{ width:135px; height:32px; background:url("../img/ci_sub.png"); position:absolute; top:24px; left:100px; }
-.main_m_icon{ width:20px; height:16px; background:url("../img/main_menu_btn.png"); position:absolute; top:64px; right:100px; cursor:pointer; }
-.main_m_sub_icon{ width:20px; height:16px; background:url("../img/main_menu_sub_btn.png"); position:absolute; top:33px; right:100px; cursor:pointer; }
+.main_m_icon{ position: relative; left: 500px; visibility: initial; cursor:pointer; }
 
 .left_menu
 {
     position: fixed;
-    left: 30px;
+    left: 50%;
+	margin-left: -900px;
     top: 50%;
-	margin-top:-123px;
 	line-height:72px;
-	z-index:11111111111111;
+	z-index: 2;
 	background:url("../img/dotted.png");
 	background-repeat:no-repeat;
-	background-position-x: 4px;
+	background-position-x: 9px;
 	background-position-y: 53px;
 }
 .left_menu a
 {
-	width:8px;
-	height:8px;
-	border-radius:50%;
-	background:#818181;
-	display:inline-block;
+	color: #999999;
 }
 
 .a_on
@@ -59,6 +54,7 @@
 	color:#c9c9c9;
 }
 
+.business_right_menu { position: relative; left: 20%; cursor:pointer; }
 .right_close img{ margin-top:64px; margin-right:90px; cursor:pointer; }
 
 /* 풋터 */

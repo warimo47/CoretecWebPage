@@ -11,7 +11,7 @@ include_once('./ll_'.$gcode.'.php');
 			<p class="subject"><?=$pagename;?></p>
 			<p class="content"></p>
 			<div class="vision">
-				<img src="./img/vision.jpg"  style="border:0px solid #eee;">
+				<img src="./img/sub_01_07.jpg"  style="border:0px solid #eee;">
 			</div>
 		</div>
 	</div>

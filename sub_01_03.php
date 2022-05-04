@@ -10,7 +10,7 @@ include_once('./ll_'.$gcode.'.php');
 		<div class="sub_title">
 			<p class="subject"><?=$pagename;?></p>
 			<p class="content"></p>
-			<img src="/img/h_sf_01.jpg">
+			<img src="/img/sub_01_03.jpg">
 			<div style="margin:15px 0;">
 			</div>
 			<div id="h_1">

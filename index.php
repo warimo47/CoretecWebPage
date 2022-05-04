@@ -35,7 +35,7 @@ include_once(G5_BBS_PATH.'/newwin.inc.php'); // 팝업레이어
 	.main_icon_text{ margin-left:130px; }
 
 	.main_con03{ width:100%; height:781px;background:url("./img/main_con03_gr.jpg" );background-repeat:no-repeat; background-position:center; text-align:left;}
-	.main_con03_gr{ width:1200px; position:relative; left:50%; margin-left:-600px; }
+	.main_con03_gr{ position:relative; left:50%; margin-left: -400px; }
 	.main_con03_01{  }
 	.main_con03_01 ul{ width:100%; height:157px; padding-top:99px; }
 	.main_con03_01 ul li{ float:left; font-size:14px;}
@@ -58,10 +58,10 @@ include_once(G5_BBS_PATH.'/newwin.inc.php'); // 팝업레이어
 
 <div class="left_menu">
 	<ul>
-		<li><a href="#sec1">intro</a></li>
-		<li><a href="#sec2">about us</a></li>
-		<li><a href="#sec3">product</a></li>
-		<li><a href="#sec4">contact</a></li>
+		<li><a href="#sec1"><img src="./img/slide_off.png">intro</a></li>
+		<li><a href="#sec2"><img src="./img/slide_off.png">about us</a></li>
+		<li><a href="#sec3"><img src="./img/slide_off.png">product</a></li>
+		<li><a href="#sec4"><img src="./img/slide_off.png">contact us</a></li>
 	</ul>
 </div>
 

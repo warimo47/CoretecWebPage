@@ -25,9 +25,9 @@ include_once('./ll_'.$gcode.'.php');
 				}).render();
 			</script>
 
-			<p class="map_text"><img src="./img/img_001.png"><span>기업명</span>  (주)코아텍</p>
-			<p class="map_text"><img src="./img/img_001.png"><span>소재지</span>  경기도 의왕시 오봉산단1로 12, 804,805호 (이동, 에이스하이테크비전21)</p>
-			<p class="map_text"><img src="./img/img_001.png"><span>연락처</span>  031-461-0111</p>
+			<p class="map_text"><img src="./img/order_list_dot.png"><span>기업명</span>  (주)코아텍</p>
+			<p class="map_text"><img src="./img/order_list_dot.png"><span>소재지</span>  경기도 의왕시 오봉산단1로 12, 804,805호 (이동, 에이스하이테크비전21)</p>
+			<p class="map_text"><img src="./img/order_list_dot.png"><span>연락처</span>  031-461-0111</p>
 		</div>
 	</div>
 </div>
