@@ -1,16 +1,15 @@
 <?php
-
 /********************
     상수 선언
 ********************/
-
 define('G5_VERSION', '그누보드5');
 define('G5_GNUBOARD_VER', '5.2.6');
 define('G5_YOUNGCART_VER', '5.2.6');
 // 이 상수가 정의되지 않으면 각각의 개별 페이지는 별도로 실행될 수 없음
 define('_GNUBOARD_', true);
 
-if (PHP_VERSION >= '5.1.0') {
+if (PHP_VERSION >= '5.1.0')
+{
     //if (function_exists("date_default_timezone_set")) date_default_timezone_set("Asia/Seoul");
     date_default_timezone_set("Asia/Seoul");
 }
@@ -18,7 +17,6 @@ if (PHP_VERSION >= '5.1.0') {
 /********************
     경로 상수
 ********************/
-
 /*
 보안서버 도메인
 회원가입, 글쓰기에 사용되는 https 로 시작되는 주소를 말합니다.
@@ -62,18 +60,24 @@ define('G5_SESSION_DIR',    'session');
 define('G5_THEME_DIR',      'theme');
 
 // URL 은 브라우저상에서의 경로 (도메인으로 부터의)
-if (G5_DOMAIN) {
+if (G5_DOMAIN)
+{
     define('G5_URL', G5_DOMAIN);
-} else {
+}
+else
+{
     if (isset($g5_path['url']))
         define('G5_URL', $g5_path['url']);
     else
         define('G5_URL', '');
 }
 
-if (isset($g5_path['path'])) {
+if (isset($g5_path['path']))
+{
     define('G5_PATH', $g5_path['path']);
-} else {
+}
+else
+{
     define('G5_PATH', '.');
 }
 
@@ -116,7 +120,6 @@ define('G5_SYNDI_PATH',     G5_PLUGIN_PATH.'/'.G5_SYNDI_DIR);
 define('G5_PHPMAILER_PATH', G5_PLUGIN_PATH.'/'.G5_PHPMAILER_DIR);
 //==============================================================================
 
-
 //==============================================================================
 // 사용기기 설정
 // pc 설정 시 모바일 기기에서도 PC화면 보여짐
@@ -127,7 +130,6 @@ define('G5_SET_DEVICE', 'both');
 
 define('G5_USE_MOBILE', true); // 모바일 홈페이지를 사용하지 않을 경우 false 로 설정
 define('G5_USE_CACHE',  false); // 최신글등에 cache 기능 사용 여부
-
 
 /********************
     시간 상수
@@ -162,11 +164,9 @@ define('G5_MOBILE_AGENT',   'phone|samsung|lgtel|mobile|[^A]skt|nokia|blackberry
 define('G5_SMTP',      '127.0.0.1');
 define('G5_SMTP_PORT', '25');
 
-
 /********************
     기타 상수
 ********************/
-
 // 암호화 함수 지정
 // 사이트 운영 중 설정을 변경하면 로그인이 안되는 등의 문제가 발생합니다.
 define('G5_STRING_ENCRYPT_FUNCTION', 'sql_password');
@@ -213,9 +213,14 @@ define('G5_VISIT_BROWSCAP_USE', true);
 */
 define('G5_IP_DISPLAY', '\\1.♡.\\3.\\4');
 
-if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=='on') {   //https 통신일때 daum 주소 js
+if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=='on')
+{
+	// https 통신일때 daum 주소 js
     define('G5_POSTCODE_JS', '<script src="https://spi.maps.daum.net/imap/map_js_init/postcode.v2.js"></script>');
-} else {  //http 통신일때 daum 주소 js
+}
+else
+{ 
+	// http 통신일때 daum 주소 js
     define('G5_POSTCODE_JS', '<script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>');
 }
 ?>

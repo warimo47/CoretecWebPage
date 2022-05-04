@@ -1,10 +1,11 @@
-<?
+<?php
 $pcode = "index";
 $newwin_site = "기본";
 include_once("./_common.php");
 include_once("./head.php");
 include_once(G5_BBS_PATH.'/newwin.inc.php'); // 팝업레이어
 ?>
+
 <style>
 	.con_wrap{  }
 	.main_con00{ width:100%; height:900px; background:url("./img/main_slide_img01.jpg"); text-align:center; font-size:45px; background-repeat:no-repeat; background-position:center; }
@@ -54,26 +55,7 @@ include_once(G5_BBS_PATH.'/newwin.inc.php'); // 팝업레이어
 	.main_lo ul li{ padding:16px 0; border-bottom: 1px dotted #fff; }
 	.main_lo hr{ width:35px; margin:31px 0; }
 </style>
-<?
-// 관리자모드에서 배너관리에서 연동되어 출력
-// show_banner("카테고리", "스킨명", "아이디명(한곳에 동일한 출력을 처리하기 위해)");
-// show_banner("메인", "bxslider_index.php", "bxslider_index");
-// show_banner('메인배너1', 'mainbanner.10.skin.php', 'mainbanner1');
-// show_banner('메인배너2', 'mainbanner.10.skin.php', 'mainbanner2');
-?>
 
-<?php
-/*
-$list = new item_list();
-$list->set_type(1);
-$list->set_view('it_img', true);
-$list->set_view('it_name', true);
-$list->set_view('it_basic', true);
-$list->set_view('it_cust_price', true);
-$list->set_view('it_price', true);
-echo $list->run();
-*/
-?>
 <div class="left_menu">
 	<ul>
 		<li><a href="#sec1">intro</a></li>
@@ -82,6 +64,7 @@ echo $list->run();
 		<li><a href="#sec4">contact</a></li>
 	</ul>
 </div>
+
 <div class="con_wrap">
 	<div class="main_con00" id="sec1">
 		<p>
@@ -263,6 +246,6 @@ echo $list->run();
 	</div>
 </div>
 
-<?
+<?php
 include_once("./tail.php");
 ?>
