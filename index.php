@@ -68,7 +68,7 @@ include_once(G5_BBS_PATH.'/newwin.inc.php'); // 팝업레이어
 <div class="con_wrap">
 	<div class="main_con00" id="sec1">
 		<p>
-			<span>디지털트윈 전문기업</span>
+			<span>Infrastructure 디지털트윈 / 프롭테크</span>
 		</p>
 	</div>
 	<div class="main_con01" id="sec2">
