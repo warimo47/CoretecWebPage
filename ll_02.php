@@ -11,6 +11,7 @@ if($pcode=="06") $pagename = "3D 창고관리";
 if($pcode=="07") $pagename = "SafePort";
 if($pcode=="08") $pagename = "통합감시";
 if($pcode=="09") $pagename = "CCP";
+if($pcode=="10") $pagename = "드론측량";
 ?>
 
 <div id="subvisual" style="background:url(./img/sv_02.jpg);">
@@ -27,4 +28,5 @@ if($pcode=="09") $pagename = "CCP";
 	<a href="<?php echo G5_URL;?>./sub_02_07.php" <?php if ($pcode == '07') { ?>class="tab_on"<?php }?>>SafePort</a>
 	<a href="<?php echo G5_URL;?>./sub_02_08.php" <?php if ($pcode == '08') { ?>class="tab_on"<?php }?>>통합감시</a>
 	<a href="<?php echo G5_URL;?>./sub_02_09.php" <?php if ($pcode == '09') { ?>class="tab_on"<?php }?>>CCP</a>
+	<a href="<?php echo G5_URL;?>./sub_02_10.php" <?php if ($pcode == '10') { ?>class="tab_on"<?php }?>>드론측량</a>
 </div>
